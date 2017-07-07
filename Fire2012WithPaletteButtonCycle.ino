@@ -20,7 +20,7 @@
 
 #define LED_PIN     6         // the pin which attaches to the neopixel data pin
 #define COLOR_ORDER GRB      // sets the color order in which the LEDs are designed for
-#define CHIPSET     WS2811  // the chipset that the neopixels use
+#define CHIPSET     WS2812B  // the chipset that the neopixels use
 #define NUM_LEDS    8      // how many leds are being adderessed
 
 #define BRIGHTNESS  200         // sets the overall brightness of the leds
