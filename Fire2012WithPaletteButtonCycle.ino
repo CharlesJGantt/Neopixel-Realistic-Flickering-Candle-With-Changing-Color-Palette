@@ -40,7 +40,7 @@ CRGBPalette16 currentPalette; // sets a variable for CRGBPalette16 which allows 
 void setup() {
   delay(3000); // sets a delay to insure that everything has initalized before proceeding with the setup
 
-  // Informs the libraty that a strand of NEOPIXEL's on pin 6 and those leds will use the led array "leds", and there are NUM_PIXELS (aka 8) of them.
+  // Informs the library that a strand of NEOPIXEL's on pin 6 and those leds will use the led array "leds", and there are NUM_PIXELS (aka 8) of them.
   FastLED.addLeds<CHIPSET, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip ); 
    
   FastLED.setBrightness( BRIGHTNESS );   // sets the brightness to the predetermined levels
